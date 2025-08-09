@@ -1,6 +1,6 @@
 
 
-import { Timeline } from "./TimeLine";
+import { Timeline } from "./Timeline";
 
 const Education = () => {
   const data = [
