@@ -6,6 +6,7 @@ import ProjectsPage from "./components/ProjectPage"
 import GeometricNetwork from "./components/GeometricNetwork"
 import Contact from "./components/Contact";
 import SparkleBurst from "./components/SparkleBurst";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
@@ -46,7 +47,7 @@ export default function App() {
         <section id="projects" className="scroll-mt-24">
           <Contact/>
         </section>
-        
+        <Analytics/>
       </div>
     </div>
   )
