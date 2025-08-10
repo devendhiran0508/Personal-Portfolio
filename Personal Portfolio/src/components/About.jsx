@@ -242,7 +242,7 @@ const About = () => {
             {/* Background with overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-neutral-900/90 via-purple-900/30 to-blue-900/30 backdrop-blur-sm" />
             <img 
-              src="/src/assets/backgroud1.webp" 
+              src="/backgroud1.webp" 
               alt="background" 
               className="absolute inset-0 w-full h-full object-cover opacity-20" 
               loading="lazy"
