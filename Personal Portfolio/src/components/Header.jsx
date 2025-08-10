@@ -193,7 +193,7 @@ const Header = () => {
                             >
                                 <span className="relative z-10">
                                     <img 
-                                        src="/public/logos/logo.webp"
+                                        src="/logos/logo.webp"
                                         alt="Portfolio Logo"
                                         className="w-24 h-24 object-contain"
                                         // Add loading optimization
