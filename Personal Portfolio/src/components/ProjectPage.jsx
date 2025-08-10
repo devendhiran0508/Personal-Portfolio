@@ -1,6 +1,5 @@
 import { Projects } from "./Projects";
 import portfolioImage from "../assets/portfolio.webp";
-import socialImage from "../assets/social.webp";
 import smartImage from "../assets/smart.webp";
 import dailydoImage from "../assets/dailydo.webp";
 import storyImage from "../assets/story.webp";

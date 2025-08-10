@@ -75,14 +75,14 @@ export function FrameWorks() {
       {/* Outer orbit */}
       <OrbitingCircles iconSize={outerIconSize} radius={outerRadius}>
         {skills.map((skill, index) => (
-          <Icons key={index} src={`src/assets/logos/${skill}.svg`} />
+          <Icons key={index} src={`/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
 
       {/* Inner orbit */}
       <OrbitingCircles iconSize={innerIconSize} radius={innerRadius} reverse speed={2}>
         {reversedSkills.map((skill, index) => (
-          <Icons key={`reverse-${index}`} src={`src/assets/logos/${skill}.svg`} />
+          <Icons key={`reverse-${index}`} src={`/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
     </div>

@@ -522,7 +522,7 @@ const Contact = () => {
                   className="relative h-20 w-20 rounded-xl bg-gradient-to-br flex items-center justify-center text-white font-bold text-lg mr-3 shadow-lg flex-shrink-0"
                   whileHover={{ scale: 1.05, rotate: 5, boxShadow: "0 10px 30px rgba(147,51,234,0.4)" }}
                 >
-                  <span className="relative z-10"><img src='src/assets/logo.webp'/></span>
+                  <span className="relative z-10"><img src='/logos/logo.webp'/></span>
                 </motion.div>
                 <span className="text-lg font-bold text-white">Devendhiran</span>
               </motion.div>
